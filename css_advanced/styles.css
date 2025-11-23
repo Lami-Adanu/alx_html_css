@@ -1,0 +1,136 @@
+*{
+   margin: 0;
+   padding: 0; 
+}
+header{
+    position: absolute;
+    width: 90%;
+    padding: 3% 5%;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+}
+
+section.first-section{
+    background-color: blueviolet;
+    background-image: url('Object.png');
+    padding-top:200px;
+    text-align: center;
+}
+
+.first-section div h1{
+font-family: Source Sans Pro;
+font-weight: 700;
+font-size: 120px;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: center;
+color:#fff;
+margin-bottom:20px;
+}
+
+.first-section div span{
+    font-family: Source Sans Pro;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: center;
+color:#fff;
+padding: 0px 20px;
+padding-top: 20px;
+}
+
+.first-section div button{
+    background: #C271FF;
+    color:#fff;
+    border:none;
+    border-radius:100px;
+    padding:20px 30px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    box-shadow: #000 0px 3px 10px;
+}
+
+.logo{
+height:30px;
+}
+
+.first-section div h2{
+    font-family: Source Sans Pro;
+font-weight: 700;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: center;
+color: #fff;
+}
+
+h2 span.learn{
+    font-family: Source Sans Pro;
+font-weight: 700;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 0px;
+color: #C271FF;
+}
+
+.team-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 60px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.team-box img{
+    width: 150px;
+    border-radius: 200px;
+}
+
+.team-box div{
+    width: 150px;
+}
+
+.team-box h3{
+    font-family: Source Sans Pro;
+font-weight: 900;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 0px;
+text-align: center;
+color: #fff;
+}
+
+.team-box p{
+    font-family: Source Sans Pro;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: center;
+color: #fff;
+}
