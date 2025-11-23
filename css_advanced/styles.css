@@ -134,3 +134,47 @@ letter-spacing: 0px;
 text-align: center;
 color: #fff;
 }
+
+.quote{
+    background: #C271FF;
+   padding: 100px 80px;
+}
+
+.quote-box{
+     display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.quote-img{
+    padding-right: 50px;
+}
+
+.quote-text blockquote{
+    font-family: Source Sans Pro;
+font-weight: 400;
+font-size: 22px;
+line-height: 33.6px;
+letter-spacing: 0px;
+color: #fff;
+}
+
+.quote-text h3{
+    font-family: Source Sans Pro;
+font-weight: 700;
+font-size: 22px;
+line-height: 33.6px;
+letter-spacing: 0px;
+color: #fff;
+}
+
+.quote-text p{
+font-family: Source Sans Pro;
+font-weight: 400;
+font-size: 22px;
+line-height: 33.6px;
+letter-spacing: 0px;
+color: #fff;
+}
