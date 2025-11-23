@@ -4,6 +4,7 @@ body,main{
 
 body{
     flex-direction: column;
+    background-color: aquamarine;
 }
 
 main{
@@ -14,6 +15,11 @@ main{
 article{
     flex: 2;
     overflow-y: auto;
+    border:1px solid #cccccc;
+}
+
+.logo{
+    color:red;
 }
 
 aside{
